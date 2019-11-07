@@ -1,47 +1,30 @@
 [
   {
-    "name": "elementList",
-    "label": "Elements",
-    "importance": "high",
-    "type": "list",
-    "entity": "element",
-    "field": {
-      "name": "element",
-      "type": "library",
-      "label": "Element type",
-      "importance": "high",
-      "description": "Content for this card",
-      "fields": [
-        {
-          "name": "cardImage",
-          "type": "library",
-          "label": "Card Image",
-          "importance": "medium",
-          "optional": true,
-          "entity": "content",
-          "options": [
-            "H5P.Image 1.1"
-          ]
-        },
-        {
-          "name": "cardTitle", 
-          "type": "text", 
-          "label": "Card title", 
-          "description": "The title of the card"
-        },
-        {
-          "name": "cardText",
-          "type": "library",
-          "label": "Content type",
-          "importance": "medium",
-          "optional": true,
-          "entity": "content",
-          
-          "options": [
-            "H5P.AdvancedText 1.1"
-          ]
-        }
-      ]
-    }
+    "name": "cardImage",
+    "type": "library",
+    "label": "Card Image",
+    "importance": "medium",
+    "optional": true,
+    "entity": "content",
+    "options": [
+      "H5P.Image 1.1"
+    ]
+  },
+  {
+    "name": "cardTitle", 
+    "type": "text", 
+    "label": "Card title", 
+    "description": "The title of the card"
+  },
+  {
+    "name": "cardText",
+    "type": "library",
+    "label": "Content type",
+    "importance": "medium",
+    "optional": true,
+    "entity": "content",
+    "options": [
+      "H5P.AdvancedText 1.1"
+    ]
   }
 ]
