@@ -17,6 +17,20 @@ H5P.StandardCard = (function ($) {
     console.log(`from standard-card: ${this.options}`);
   };
 
+  /**
+   * Attach function called by H5P framework to insert H5P content into
+   * page
+   *
+   * @param {jQuery} $container
+   */
+
+  C.prototype.attach = function ($container) {
+
+    $container.addClass("h5p-standard-card");
+
+    console.log(`from standard-card: ${this.options}`);
+  
+  };
   
 
   return C;
