@@ -4,7 +4,7 @@ H5P.StandardCard = (function ($) {
   /**
    * Constructor function.
    */
-  function C(options, id) {
+  function StandardCard(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
       cardImage: '',
@@ -24,7 +24,7 @@ H5P.StandardCard = (function ($) {
    * @param {jQuery} $container
    */
 
-  C.prototype.attach = function ($container) {
+  StandardCard.prototype.attach = function ($container) {
 
     $container.addClass("h5p-standard-card");
 
@@ -33,6 +33,6 @@ H5P.StandardCard = (function ($) {
   };
   
 
-  return C;
+  return StandardCard;
 
 })(H5P.jQuery);
