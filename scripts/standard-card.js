@@ -13,8 +13,8 @@ H5P.StandardCard = (function ($) {
     }, options);
     // Keep provided id.
     this.id = id;
-
-    console.log(`from standard-card: ${this.options}`);
+    console.log(`from standard-card 0: ${this}`);
+    console.log(`from standard-card 1: ${this.options}`);
   };
 
   /**
@@ -28,7 +28,7 @@ H5P.StandardCard = (function ($) {
 
     $container.addClass("h5p-standard-card");
 
-    console.log(`from standard-card: ${this.options}`);
+    console.log(`from standard-card 2: ${this.options}`);
   
   };
   
