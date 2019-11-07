@@ -14,12 +14,12 @@
       },
     "preloadedCss": [
       {
-        "path": "standard-card.css"
+        "path": "styles/standard-card.css"
       }
     ],
     "preloadedJs": [
       {
-        "path": "standard-card.js"
+        "path": "scripts/standard-card.js"
       }
     ],
     "preloadedDependencies": [

@@ -7,11 +7,15 @@ H5P.StandardCard = (function ($) {
   function C(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
-        elementList: []
+      cardImage: '',
+      cardTitle: 'Card title',
+      cardText: 'Card text'
     }, options);
     // Keep provided id.
     this.id = id;
   };
+
+  console.log(this);
 
   return C;
 
