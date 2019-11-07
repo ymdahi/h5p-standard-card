@@ -13,9 +13,11 @@ H5P.StandardCard = (function ($) {
     }, options);
     // Keep provided id.
     this.id = id;
+
+    console.log(`from standard-card: ${this.options}`);
   };
 
-  console.log(this);
+  
 
   return C;
 

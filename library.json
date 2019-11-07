@@ -32,7 +32,9 @@
         "machineName": "H5P.Text",
         "majorVersion": 1,
         "minorVersion": 1
-      },
+      }
+    ],
+    "editorDependencies": [
       {
         "machineName": "H5PEditor.UrlField",
         "majorVersion": 1,
