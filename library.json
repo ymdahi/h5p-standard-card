@@ -1,0 +1,42 @@
+{
+    "title": "Standard card",
+    "description": "Standard card element where you can create a card with images, text, and links.",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 0,
+    "runnable": 0,
+    "author": "Yasin Dahi, @ymdahi",
+    "license": "MIT",
+    "machineName": "H5P.StandardCard",
+    "coreApi": {
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+    "preloadedCss": [
+      {
+        "path": "standard-card.css"
+      }
+    ],
+    "preloadedJs": [
+      {
+        "path": "standard-card.js"
+      }
+    ],
+    "preloadedDependencies": [
+      {
+        "machineName": "H5P.Image",
+        "majorVersion": 1,
+        "minorVersion": 1
+      },
+      {
+        "machineName": "H5P.Text",
+        "majorVersion": 1,
+        "minorVersion": 1
+      },
+      {
+        "machineName": "H5PEditor.UrlField",
+        "majorVersion": 1,
+        "minorVersion": 2
+      }
+    ]
+  }
