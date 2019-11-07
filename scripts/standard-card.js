@@ -4,7 +4,7 @@ H5P.StandardCard = (function ($) {
   /**
    * Constructor function.
    */
-  function StandardCard(options, id) {
+  function C(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
       cardImage: null,
@@ -17,13 +17,15 @@ H5P.StandardCard = (function ($) {
     console.log(`from standardcard 0: ${this.options}`);
   };
  
+  console.log(`from standardcard 1: ${this.options}`);
+
   /**
    * Attach function called by H5P framework to insert H5P content into
    * page
    *
    * @param {jQuery} $container
    */
-  StandardCard.prototype.attach = function ($container) {
+  C.prototype.attach = function ($container) {
     // Set class on container to identify it as a greeting card
     // container.  Allows for styling later.
     $container.addClass("h5p-standard-card");
@@ -33,9 +35,11 @@ H5P.StandardCard = (function ($) {
     }
     // Add greeting text.
     $container.append('<div class="card-text">' + this.options.cardTitle + '</div>');
+
+    console.log(`from standardcard 2: ${this.options}`);
   };
  
-  return StandardCard;
+  return C;
 
 
 })(H5P.jQuery);
