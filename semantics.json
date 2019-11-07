@@ -23,5 +23,54 @@
     "options": [
       "H5P.AdvancedText 1.1"
     ]
+  },
+  {
+    "name": "cardAction",
+    "type": "group",
+    "importance": "high",
+    "optional": true,
+    "widget": "linkWidget",
+    "label": "Button",
+    "fields": [
+      {
+        "name": "protocol",
+        "type": "select",
+        "importance": "high",
+        "label": "Protocol",
+        "options": [
+          {
+            "value": "http://",
+            "label": "http://"
+          },
+          {
+            "value": "https://",
+            "label": "https://"
+          },
+          {
+            "value": "/",
+            "label": "(root relative)"
+          },
+          {
+            "value": "other",
+            "label": "other"
+          }
+        ],
+        "optional": true,
+        "default": "http://"
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "importance": "high",
+        "optional": true,
+        "label": "URL"
+      },
+      {
+        "name": "label",
+        "type": "text",
+        "optional": true,
+        "label": "Button label"
+      }
+    ]
   }
 ]
