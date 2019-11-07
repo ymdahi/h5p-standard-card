@@ -1,14 +1,11 @@
 [
   {
     "name": "cardImage",
-    "type": "library",
+    "type": "image",
     "label": "Card Image",
     "importance": "medium",
     "optional": true,
-    "entity": "content",
-    "options": [
-      "H5P.Image 1.1"
-    ]
+    "description": "Image shown on card, optional. Without this the card will show just the text."
   },
   {
     "name": "cardTitle", 
