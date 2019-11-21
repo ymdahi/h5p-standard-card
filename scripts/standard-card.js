@@ -4,7 +4,7 @@ H5P.StandardCard = (function ($) {
   /**
    * Constructor function.
    */
-  function C(options, id) {
+  function StandandCard(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
       cardImage: null,
